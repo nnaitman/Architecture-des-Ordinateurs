@@ -5,7 +5,7 @@ USE ieee.std_logic_1164.all;
 entity MUX5v1 is 
     Port ( u, v, w, x, y : in STD_LOGIC;
            s0, s1, s3 : in STD_LOGIC;
-	 	   m : out STD_LOGIC);		  
+	 	   m : out STD_LOGIC));		  
 end MUX5v1;
 
 architecture behavior of MUX5v1_3bits is
